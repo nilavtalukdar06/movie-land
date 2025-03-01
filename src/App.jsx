@@ -4,7 +4,7 @@ import MovieCard from "./components/MovieCard";
 
 const API_KEY = import.meta.env.VITE_API_KEY;
 const ID = import.meta.env.VITE_OMDB_ID;
-const URL = `http://www.omdbapi.com?apiKey=${API_KEY}&i=${ID}`;
+const URL = `https://www.omdbapi.com?apiKey=${API_KEY}&i=${ID}`;
 
 const App = () => {
   const [movies, setMovies] = useState([]);
